@@ -8,9 +8,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
+    <!--<div ng-app="">-->
+    <!--<p>My first expression: {{ 5 + 10 }}</p>-->
+    <!--</div>-->
+
     <div ng-app="">
-    <p>My first expression: {{ 5 + 10 }}</p>
-</div>
+     
+    <p>Please enter your name and surName in the input box:</p>
+    <p>Name: <input type="text" ng-model="name"></p>
+    <p>Surname: <input type="text" ng-model="surName"></p>
+    <p>{{name}} {{surName}}</p>
+    
+    </div>
+
     
 </body>
 </html>

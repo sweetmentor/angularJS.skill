@@ -8,11 +8,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
-    <div ng-app="" ng-init="quantity=2;price=12">
-    Quantity: <input type="number" ng-model="quantity">
-    Cost: <input type="number" ng-model="price">
+    <!--<div ng-app="" ng-init="quantity=2;price=12">-->
+    <!--Quantity: <input type="number" ng-model="quantity">-->
+    <!--Cost: <input type="number" ng-model="price">-->
     
-    Total in pounds: £ {{quantity*price}}
+    <!--<p>Total in pounds: £ {{quantity*price}}</p>-->
+    <!--</div>-->
+    
+    <div ng-app="" ng-init="lenght=1;width=4;height=2">
+    Lenght: <input type="number" ng-model="lenght">
+    Width: <input type="number" ng-model="width">
+    Height: <input type="number" ng-model="height">
+    
+    <p>Area in cubic meter: {{lenght*width*height}}</p>
     </div>
     
 </body>
